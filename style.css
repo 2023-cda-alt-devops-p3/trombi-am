@@ -1,0 +1,124 @@
+<link rel="stylesheet" href="style.css">
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+}
+
+/* Style de l'en-tête (header) */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+.map-container {
+    text-align: center;
+    margin: 0 auto;
+    width: 850px; /* Ajustez la largeur à celle de votre carte */
+    height: 900px; /* Ajustez la hauteur à celle de votre carte */
+    position: relative;
+    background-image: url('carte.jpg'); /* Ajoutez le chemin de votre image de carte */
+    background-size: cover;
+}
+
+.point {
+    width: 10px; /* Largeur du point d'intérêt */
+    height: 10px; /* Hauteur du point d'intérêt */
+    background-color: transparent; /* Couleur du point d'intérêt */
+    border-radius: 50%; /* Pour rendre le point rond */
+    box-shadow: 0 0 0 2px blue; /* Crée un cercle noir avec un espace transparent au centre */
+    cursor: pointer;
+    position: absolute;
+    display: flex; /* Pour centrer le contenu (texte/chiffres) */
+    justify-content: center; /* Pour centrer horizontalement */
+    align-items: center; /* Pour centrer verticalement */
+    font-weight: bold; /* Texte en gras pour une meilleure visibilité */
+    font-size: 16px; /* Taille de la police */
+    color: white; /* Couleur du texte */
+}
+
+.info {
+    display: none;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    bottom: 100%; /* Pour afficher au-dessus du point */
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#point1 {
+    top: 82.5%; /* Coordonnée verticale en pixels par rapport au coin supérieur gauche de la carte */
+    left: 80%; /* Coordonnée horizontale en pixels par rapport au coin supérieur gauche de la carte */
+}
+
+#point2 {
+    top: 83%; /* Coordonnée verticale en pixels par rapport au coin supérieur gauche de la carte */
+    left: 81.5%; /* Coordonnée horizontale en pixels par rapport au coin supérieur gauche de la carte */
+}
+
+#point3 {
+    top: 84%; /* Coordonnée verticale en pixels par rapport au coin supérieur gauche de la carte */
+    left: 80.5%; /* Coordonnée horizontale en pixels par rapport au coin supérieur gauche de la carte */
+}
+
+#point4 {
+    top: 80%; /* Coordonnée verticale en pixels par rapport au coin supérieur gauche de la carte */
+    left: 82%; /* Coordonnée horizontale en pixels par rapport au coin supérieur gauche de la carte */
+}
+
+#point5 {
+    top: 35%; /* Coordonnée verticale en pixels par rapport au coin supérieur gauche de la carte */
+    left: 35%; /* Coordonnée horizontale en pixels par rapport au coin supérieur gauche de la carte */
+}
+
+#point6 {
+    top: 64%; /* Coordonnée verticale en pixels par rapport au coin supérieur gauche de la carte */
+    left: 30%; /* Coordonnée horizontale en pixels par rapport au coin supérieur gauche de la carte */
+}
+
+#point7 {
+    top: 54%; /* Coordonnée verticale en pixels par rapport au coin supérieur gauche de la carte */
+    left: 60%; /* Coordonnée horizontale en pixels par rapport au coin supérieur gauche de la carte */
+}
+
+#point8 {
+    top: 56%; /* Coordonnée verticale en pixels par rapport au coin supérieur gauche de la carte */
+    left: 61%; /* Coordonnée horizontale en pixels par rapport au coin supérieur gauche de la carte */
+}
+
+#point9 {
+    top: 56%; /* Coordonnée verticale en pixels par rapport au coin supérieur gauche de la carte */
+    left: 59%; /* Coordonnée horizontale en pixels par rapport au coin supérieur gauche de la carte */
+}
+
+#point10 {
+    top: 55%; /* Coordonnée verticale en pixels par rapport au coin supérieur gauche de la carte */
+    left: 65%; /* Coordonnée horizontale en pixels par rapport au coin supérieur gauche de la carte */
+}
+
+#point11 {
+    top: 85%; /* Coordonnée verticale en pixels par rapport au coin supérieur gauche de la carte */
+    left: 47%; /* Coordonnée horizontale en pixels par rapport au coin supérieur gauche de la carte */
+}
+
+#point12 {
+    top: 85%; /* Coordonnée verticale en pixels par rapport au coin supérieur gauche de la carte */
+    left: 49%; /* Coordonnée horizontale en pixels par rapport au coin supérieur gauche de la carte */
+}
+
+#point13 {
+    top: 65%; /* Coordonnée verticale en pixels par rapport au coin supérieur gauche de la carte */
+    left: 83%; /* Coordonnée horizontale en pixels par rapport au coin supérieur gauche de la carte */
+}
+
+#point14 {
+    top: 77%; /* Coordonnée verticale en pixels par rapport au coin supérieur gauche de la carte */
+    left: 77%; /* Coordonnée horizontale en pixels par rapport au coin supérieur gauche de la carte */
+}
