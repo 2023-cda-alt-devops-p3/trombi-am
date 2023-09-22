@@ -14,6 +14,7 @@ header {
     background-color: #333;
     color: #fff;
     padding: 20px;
+    text-align: center;
 }
 
 .map-container {
@@ -53,72 +54,72 @@ header {
     transform: translateX(-50%);
 }
 
-#point1 {
-    top: 82.5%; /* Coordonnée verticale en pixels par rapport au coin supérieur gauche de la carte */
-    left: 80%; /* Coordonnée horizontale en pixels par rapport au coin supérieur gauche de la carte */
+#point11 {
+    top: 81%; /* Coordonnée verticale en pixels par rapport au coin supérieur gauche de la carte */
+    left: 79%; /* Coordonnée horizontale en pixels par rapport au coin supérieur gauche de la carte */
 }
 
-#point2 {
-    top: 83%; /* Coordonnée verticale en pixels par rapport au coin supérieur gauche de la carte */
-    left: 81.5%; /* Coordonnée horizontale en pixels par rapport au coin supérieur gauche de la carte */
-}
-
-#point3 {
+#point13 {
     top: 84%; /* Coordonnée verticale en pixels par rapport au coin supérieur gauche de la carte */
     left: 80.5%; /* Coordonnée horizontale en pixels par rapport au coin supérieur gauche de la carte */
 }
 
-#point4 {
+#point14 {
+    top: 84%; /* Coordonnée verticale en pixels par rapport au coin supérieur gauche de la carte */
+    left: 82%; /* Coordonnée horizontale en pixels par rapport au coin supérieur gauche de la carte */
+}
+
+#point12 {
     top: 80%; /* Coordonnée verticale en pixels par rapport au coin supérieur gauche de la carte */
     left: 82%; /* Coordonnée horizontale en pixels par rapport au coin supérieur gauche de la carte */
 }
 
-#point5 {
+#point1 {
     top: 35%; /* Coordonnée verticale en pixels par rapport au coin supérieur gauche de la carte */
     left: 35%; /* Coordonnée horizontale en pixels par rapport au coin supérieur gauche de la carte */
 }
 
-#point6 {
+#point2 {
     top: 64%; /* Coordonnée verticale en pixels par rapport au coin supérieur gauche de la carte */
     left: 30%; /* Coordonnée horizontale en pixels par rapport au coin supérieur gauche de la carte */
 }
 
-#point7 {
-    top: 54%; /* Coordonnée verticale en pixels par rapport au coin supérieur gauche de la carte */
+#point3 {
+    top: 52%; /* Coordonnée verticale en pixels par rapport au coin supérieur gauche de la carte */
     left: 60%; /* Coordonnée horizontale en pixels par rapport au coin supérieur gauche de la carte */
 }
 
-#point8 {
+#point5 {
     top: 56%; /* Coordonnée verticale en pixels par rapport au coin supérieur gauche de la carte */
     left: 61%; /* Coordonnée horizontale en pixels par rapport au coin supérieur gauche de la carte */
 }
 
-#point9 {
+#point4 {
     top: 56%; /* Coordonnée verticale en pixels par rapport au coin supérieur gauche de la carte */
     left: 59%; /* Coordonnée horizontale en pixels par rapport au coin supérieur gauche de la carte */
 }
 
-#point10 {
+#point6 {
     top: 55%; /* Coordonnée verticale en pixels par rapport au coin supérieur gauche de la carte */
     left: 65%; /* Coordonnée horizontale en pixels par rapport au coin supérieur gauche de la carte */
 }
 
-#point11 {
+#point7 {
     top: 85%; /* Coordonnée verticale en pixels par rapport au coin supérieur gauche de la carte */
     left: 47%; /* Coordonnée horizontale en pixels par rapport au coin supérieur gauche de la carte */
 }
 
-#point12 {
+#point8 {
     top: 85%; /* Coordonnée verticale en pixels par rapport au coin supérieur gauche de la carte */
     left: 49%; /* Coordonnée horizontale en pixels par rapport au coin supérieur gauche de la carte */
 }
 
-#point13 {
+#point9 {
     top: 65%; /* Coordonnée verticale en pixels par rapport au coin supérieur gauche de la carte */
     left: 83%; /* Coordonnée horizontale en pixels par rapport au coin supérieur gauche de la carte */
 }
 
-#point14 {
+#point10 {
     top: 77%; /* Coordonnée verticale en pixels par rapport au coin supérieur gauche de la carte */
     left: 77%; /* Coordonnée horizontale en pixels par rapport au coin supérieur gauche de la carte */
 }
