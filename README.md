@@ -13,6 +13,6 @@
 ## :muscle: Auteurs / Contributeurs
 
 - [Ali Moussaev](https://github.com/ali-moussaev)
-- [Arnaud Fenérol](https://github.com/arnaudfl)
+- [Arnaud F.](https://github.com/arnaudfl)
 
 :bomb: EOF
