@@ -2,6 +2,8 @@
 
 > Projet de trombinoscope pour la P3 développé avec panache par :star: Ali et :dizzy: Arnaud
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/4188fe12-1891-415d-965a-c3d9a904d48f/deploy-status)](https://app.netlify.com/sites/trombi-am/deploys)
+
 ## :tada: Stack technique
 
 > Le projet utilise la stack technique suivante :
